@@ -1,16 +1,16 @@
 # README
 This is the final assignment in Week 4 of the course "Getting and Cleaning Data", in the "Data Science" Specialization, by Juan Pablo Loaiza Ramírez
 
-# Files is this repository
+## Files is this repository
 * **README.md**: Describe how the script work.
 * **CodeBook.md**: Codebook describing the variables.
 * **run_analysis.R**: R code with the script.
 
-# Description of the data
+## Description of the data
 * This exercise considers the data of "_Human Activity Recognition Using Smartphones Dataset, Version 1.0_," taken from this file: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 * All the details of the described dataset can be found here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-# Details of the data
+## Details of the data
 ### The information of this section can be found in README.text from the folder _UCI HAR Dataset_ of the data
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data.
@@ -47,7 +47,7 @@ Notes:
 - Features are normalized and bounded within [-1,1].
 - Each feature vector is a row on the text file.
 
-# Data Analysis
+## Data Analysis
 The R script called *run_analysis.R* does the following:
 
 1. Merges the training and the test sets to create one data set.
