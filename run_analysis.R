@@ -50,9 +50,9 @@ features <- read.table("./UCI HAR Dataset/features.txt")
 activity_labels <- read.table("./UCI HAR Dataset/activity_labels.txt")
 
 ## Merging train and test sets
-## x: x_test and x_train merged
-## y: y_test and y_train merged
-## subjects: subject_test and subject_train merged
+## x: x_test and x_train merged by rows
+## y: y_test and y_train merged by rows
+## subjects: subject_test and subject_train merged by rows
 
 x <- rbind(x_test,x_train)
 y <- rbind(y_test,y_train)
@@ -70,8 +70,6 @@ x <- x[, mean_std_col]
 names(x) <- features[mean_std_col, 2]
 
 ## Assigning activities from activity_labels to y
-## y: activities labels of the data set
-
 y[, 1] <- activity_labels[y[, 1], 2]
 names(y) <- "activity"
 
