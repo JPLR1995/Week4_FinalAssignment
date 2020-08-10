@@ -7,8 +7,8 @@ This is the final assignment in Week 4 of the course "Getting and Cleaning Data"
 * **run_analysis.R**: R code with the script.
 
 ## Libraries used
-* library(plyr)
-* library(dplyr)
+* $library(plyr)$
+* $library(dplyr)$
 
 ## Variables used
 * x_test: Test set. Taken from _"./UCI HAR Dataset/test/X_test.txt"_
